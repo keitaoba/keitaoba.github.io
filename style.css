@@ -1,0 +1,830 @@
+*{
+	margin:0;
+	padding:0;
+}
+
+.clearfix::after{
+	content: "";
+	clear: both;
+	display: block;
+}
+
+li{
+	list-style: none;
+	font-family: #FAFAFA;
+}
+
+header{
+	width: 100%;
+	height: 70px;
+	background-color: #1c345c;
+	position: fixed;
+}
+
+nav{
+	width: 90%;
+	height: 60px;
+	margin: 0 auto;
+	text-align: center;
+}
+
+
+.title{
+	float: left;
+	width: 200px;
+	line-height: 60px;
+}
+
+.title img{
+	height: 60px;
+}
+
+.top-menu{
+	float: right;
+	width: 83%;
+	line-height: 70px;
+}
+
+.top-menu-item a{
+	text-decoration: none;
+	color: white;
+	width: 13%;
+	float: right;
+}
+
+.mainvisual{
+	width: 100%;
+	height: 770px;
+	background-image: url(img/chijisya.jpg);
+	background-size: 100% 100%;
+}
+
+.mainpoint{
+	width: 100%;
+	height: 350px;
+	background-image: url(img/sfc-news.png);
+	background-size: cover;
+}
+
+.point-message{
+	margin: 0 auto;
+	color: white;
+	font-style: bold;
+	font-size: 70px;
+	text-align: center;
+	padding-top: 35px;
+}
+
+.more-message{
+	margin: 0 auto;
+	margin-top: 40px;
+	width: 320px;
+	text-align: center;
+	color: orange;
+	font-size: 20px;
+	border: 2px solid orange;
+}
+
+.first-contact{
+	text-align: center;
+	color: white;
+	font-size: 40px;
+	padding-top: 30px;
+}
+
+.data-detail{
+	width:100%
+	height: 800px;
+	background-image: url(img/border.png);
+	background-size: 100% 100%;
+}
+
+.data-container{
+	margin: 0 auto;
+	padding-top: 20px;
+	width: 750px;
+	height: 250px;
+	
+}
+
+.data-box{
+	width: 250px;
+	height: 250px;
+	float: left;
+}
+
+.manzoku{
+	background-image: url(img/manzoku.png);
+	background-size: 100% 100%;
+}
+
+.keizoku{
+	background-image: url(img/keizoku.png);
+	background-size: 100% 100%;
+}
+
+.goukaku{
+	background-image: url(img/goukaku.png);
+	background-size: 100% 100%;
+}
+
+
+.order-made{
+	padding-top: 30px;
+	font-weight: bold;
+	font-size: 40px;
+	color: #1c345c;
+}
+
+.message{
+	padding-top: 50px;
+	line-height: 50px;
+	font-size: 30px;
+	font-weight: bold;
+	color: #1c345c;
+}
+
+.tag{
+	color: #FB8B24;
+	padding-top: 40px;
+	font-size: 30px;
+}
+
+.mainimg-word{
+	text-align: center;
+	padding-top: 50px;
+}
+
+.sub-title{
+	font-size: 40px;
+	color: orange;
+}
+
+.explain{
+	font-size: 25px;
+	padding-top: 20px;
+	line-height: 40px;
+	color: #1c345c;
+	font-weight: bold;
+}
+
+.cal{
+	width: 900px;
+	padding-top: 30px;
+	margin: 0 auto;
+	padding-bottom: 60px;
+}
+
+
+.cariculam{
+	width: 100%;
+	background-image: url(img/background-white.jpg);
+	background-size: cover;
+	padding-top: 60px;
+	padding-bottom: 60px;
+}
+
+.cariculam-sub{
+	width: 80%;
+	margin: 0 auto;
+	text-align: center;
+}
+
+.box-taiwa{
+	width: 900px;
+	height: 350px;
+	margin: 0 auto;
+	background-image: url(img/taiwa.png);
+	background-size: 100% 100%;
+	margin-top: 60px;
+}
+
+.containe-cariculam{
+	padding-top: 40px;
+	width: 1000px;
+	height: 450px;
+	margin: 0 auto;
+}
+
+.box-cariculam{
+	float: left;
+	width: 500px;
+	height: 450px;
+}
+
+.talk-img{
+	width: 450px;
+	margin: 10px;
+}
+
+.mini-title{
+	text-align: center;
+	padding-top: 60px;
+	font-size: 30px;
+	color: #001427;
+}
+
+.box-it{
+	width: 900px;
+	height: 350px;
+	margin: 0 auto;
+	background-image: url(img/it-deta.png);
+	background-size: 100% 100%;
+	margin-top: 30px;
+}
+
+.explain-cariculam{
+	padding-top: 0 auto;
+	line-height: 50px;
+	color: #1c345c;
+	font-weight: bold;
+	font-size: 18px;
+}
+
+.student{
+	width: 100%;
+	height: 300px;
+	background-image: url(img/seito.jpg);
+	background-size: cover;
+}
+
+.student-message{
+	padding-top: 90px;
+	text-align: center;
+	color: white;
+	font-size: 80px;
+	font-weight: bold;
+}
+
+.student-container{
+	width: 800px;
+	height: 300px;
+	margin: 0 auto;
+	padding-bottom: 60px;
+}
+
+.student-box{
+	width: 500px;
+	height: 300px;
+	float: left;
+}
+
+.student-img-box-kato{
+	width: 300px;
+	height: 300px;
+	background-image: url(img/kato.jpg);
+	background-size: cover;
+	float: left;
+}
+
+.student-img-box-sakukawa{
+	width: 300px;
+	height: 300px;
+	background-image: url(img/sakukawa.jpg);
+	background-size: cover;
+	float: left;
+}
+
+.student-point{
+	margin: 10px;
+	color: orange;
+	font-size: 30px;
+}
+
+.student-word{
+	margin: 0 auto;
+	color: #1c345c;
+	font-size: 18px;
+	line-height: 40px;
+	margin: 10px;
+}
+
+.stuff{
+	width: 100%;
+	height: 300px;
+	background-image: url(img/stuff.jpg);
+	background-size: cover;
+}
+
+.profile{
+	background-color: #1c345c;
+	height: auto;
+}
+
+.message-hello{
+	text-align: center;
+	font-weight: bold;
+	font-size: 30px;
+	padding-bottom: 20px;
+}
+
+.container-profile{
+	width: 900px;
+	height: 300px;
+	margin: 0 auto;
+	padding-top: 30px;
+	padding-bottom: 30px;
+}
+
+.box-profile{
+	float: left;
+	width: 450px;
+	height: 300px;
+}
+
+.profile-img{
+	width: 450px;
+	border: 20px solid #1c345c;
+	box-sizing: border-box;
+}
+
+.my-name{
+	font-size: 30px;
+	font-weight: bold;
+	color: orange;
+	padding-top: 15px;
+}
+
+.my-title{
+	color: white;
+	font-weight: bold;
+}
+
+.my-info{
+	color: white;
+	padding-top: 20px;
+}
+
+.my-explain{
+	color: white;
+}
+
+.staff-intro{
+	color: white;
+}
+
+.hello{
+	width: 900px;
+	height: 500px;
+	margin: 0 auto;
+	line-height: 30px;
+	color: white;
+	padding-bottom: 80px;
+}
+
+.classroom-intro{
+	color: #1c345c;
+}
+
+.classroom-go{
+	width: 100%;
+	height: 300px;
+	background-image: url(img/be.png);
+	background-size: cover;
+}
+
+.classroom{
+	width: 100%;
+	background-color: white;
+}
+
+.container-classroom{
+	width: 800px;
+	height: 300px;
+	margin: 0 auto;
+	padding-top: 30px;
+	padding-bottom: 60px;
+}
+
+.box-classroom{
+	float: left;
+	width: 400px;
+	height: 300px;
+	border: 20px solid white;
+	box-sizing: border-box;
+}
+
+.shibuya{
+	background-image: url(img/shibuya.png);
+	background-size: 100% 100%;
+}
+
+.setagaya{
+	background-image: url(img/setagaya-png.png);
+	background-size: 100% 100%;
+}
+
+.wich-class{
+	font-size: 20px;
+	padding-top: 16px;
+	color: white;
+	text-align: center;
+}
+
+.class-access-setagaya{
+	width: 100px;
+	text-align: center;
+	font-size: 15px;
+	font-weight: bold;
+	color: white;
+	background-color: #001427;
+	line-height: 38px;
+}
+
+.class-access-shibuya{
+	width: 100px;
+	text-align: center;
+	font-size: 15px;
+	font-weight: bold;
+	color: #001427;
+	background-color: white;
+	line-height: 38px;
+}
+
+.price{
+	width: 100%;
+	height: 300px;
+	background-image: url(img/price.jpg);
+	background-size: cover;
+}
+
+.price-detail{
+	width: 100%;
+	background-image: url(img/blue.001.jpeg);
+	background-size: cover;
+}
+
+.price-course{
+	text-align: center;
+	color: orange;
+	font-size: 30px;
+	padding-top: 30px;
+	padding-bottom: 30px;
+}
+
+.price-howmuch{
+	width: 200px;
+	margin: 0 auto;
+	text-align: center;
+	color: white;
+	font-size: 15px;
+	border: 2px solid white;
+
+}
+
+.price-box{
+	padding-bottom: 60px;
+}
+
+.contact-before{
+	width: 100%;
+	height: 300px;
+	background-image: url(img/seito.jpg);
+	background-size: cover;
+}
+
+.contact{
+	background-image: url(img/contact-background.001.jpeg);
+	background-size: cover;
+}
+
+.contact-info{
+	color: white;
+}
+
+.contact-word{
+	text-align: center;
+	padding-bottom: 60px;
+	color: white;
+}
+
+.point{
+	padding-top: 40px;
+}	
+
+.point::after{
+	  	width: 200px;
+  		margin: 0 auto;
+  		display: block;
+  		border-top: 2px solid white;
+  		content: '';
+}
+
+.shibuya:hover{
+	opacity: .5;
+}
+
+.setagaya:hover{
+	opacity: .5;
+}
+
+.explain-contact{
+	color: white;
+	padding-top: 40px;
+	font-weight: ;
+}
+
+.point-contact{
+	color: red;
+}
+
+footer{
+	width: 100%;
+	height: 90px;
+	background-color: #1c345c;
+}
+
+.webcamp{
+	text-align: center;
+	line-height: 90px;
+	color: white;
+	font-size: 15px;
+}
+
+
+@media (max-width: 700px){
+
+		.top-menu{ 
+			display: none;
+		}
+
+		.mainvisual{
+			height: 300px;
+		}
+
+		.mainpoint{
+			height: 200px;
+		}
+
+		.point-message{
+			font-size: 25px;
+		}
+
+		.more-message{
+			font-size: 15px;
+		}
+
+		.first-contact{
+			font-size: 12px;
+		}
+
+		.data-detail{
+			height: 180px;
+			background-image: none;
+		}
+
+		.data-container{
+			width: 300px;
+			height: 300px;
+		}
+
+		.data-box{
+			width: 150px;
+			height: 150px;
+		}
+
+
+		.goukaku{
+			display: none;
+		}
+
+		.sub-title{
+			font-size: 25px;
+		}
+
+		.explain{
+			font-size: 13px;
+		}
+		
+		.box-taiwa{
+			width: 100%;
+			height: 200px;
+		}
+
+		.box-it{
+			width: 100%;
+			height: 200px;
+		}
+
+		/*.containe-cariculam{
+			width: 300px;
+			height: 270px;
+		}
+
+		.box-cariculam{
+			width: 300px;
+
+			float: none;
+		}*/
+
+		.containe-cariculam{
+			display: none;
+		}
+
+		.student{
+			height: 150px;
+		}
+
+		.student-message{
+			padding-top: 40px;
+			text-align: center;
+			font-size: 50px;
+			text-height: 150px;
+		}
+
+		.student-container{
+			display: none;
+		}
+
+		.student-mobile-container{
+			width: 300px;
+			height: 600px;
+			margin: 0 auto;
+			padding: 30px;
+		}
+
+		.student-mobile-box{
+			width: 300px;
+			height: 300px;
+			color: #1c345c;
+			margin: 10px;
+			text-align: center;
+			font-size: 17px;
+		}
+
+		.sakukawa-mobile{
+			background-image: url(img/sakukawa.jpg);
+			background-size: 100% 100%;
+		}
+		
+		.stuff{
+			height: 150px;
+		}
+
+		.profile{
+			padding-bottom: 30px;
+		}
+
+		.container-profile{
+			display: none;
+		}
+
+		.hello{
+			display: none;
+		}
+
+		/*.boxt-profile{
+			float: none;
+			width: 400px;
+			height: 300px;
+			box-sizing: box-border;
+		}
+
+		.profile-img{
+			width: 300px;
+		}*/
+
+		.box-profile-mobile{
+			width: 300px;
+			height: 200px;
+			margin: 0 auto;
+			padding-top: 30px;
+		}
+
+		.profile-img-mobile{
+			width: 300px;
+			height: 200px;
+		}
+
+		.my-intro{
+			color: white;
+			padding: 20px 40px 30px 40px;
+		}
+
+		.my-name-mobile{
+			font-size: 30px;
+		}
+
+		.message-botton{
+			padding-bottom: 30px;
+		}
+
+		.message-word{
+			width: 200px;
+			text-align: center;
+			margin: 0 auto;
+			font-size: 20px;
+			color: white;
+			border: 2px solid white;
+		}
+
+		.button{
+    	width: 150px;
+    	height: 50px;
+    	text-align: center;
+    	line-height: 50px;
+    	color: #1c345c;
+    	background-color: white;
+    	margin: 20px auto 30px auto;
+		}
+
+		.button-box{
+    	display: none;
+    	margin-top: 30px;
+    	width: 100%;
+    	height: 800px;
+    	background-color: white;
+		}
+
+		.hello-word-mobile{
+			padding-top: 30px;
+			margin: 30px;
+			color: #1c345c;
+		}
+
+		.classroom-go{
+			height: 150px;
+		}
+
+		.container-classroom{
+			width: 400px;
+			height: 600px;
+		}
+
+		.box-classroom{
+			float: none;
+			width: 400px;
+			height: 300px;
+			box-sizing: box-border;
+		}
+
+		.price{
+			height: 150px;
+		}
+
+		.contact-before{
+			height: 150px;
+		}
+
+		.box-menu{
+			margin: 0 auto;
+			text-align: right; 
+			font-size: 35px;
+			color: white;
+			line-height: 70px;
+		}
+
+		.box-menu-up{
+			display: none;
+			width: 100%;
+			height: 400px;
+			background-color: white;
+			opacity: .9;
+			overflow: hidden;
+		}
+
+		.top-menu-item-mobile{
+			text-align: center;
+			line-height: 66px;
+			color: black;
+		}
+
+		.cariculam-top-menu{
+			padding-top: 60px;
+		}
+	}
+
+	@media all and (min-width: 700px){
+		.student-mobile-container{
+			display: none;
+		}
+		
+		.student-point-mobile{
+			display: none;
+		}
+
+		.box-profile-mobile{
+			display: none;
+		}
+
+		.my-intro{
+			display: none;
+		}
+
+		.button{
+			display: none;
+		}
+
+		.button-box{
+			display: none;
+		}
+
+		.box-menu{
+			display: none;
+		}
+
+		.top-menu-item-mobile{
+			display: none;
+		}
+	}
+		
